@@ -1,0 +1,29 @@
+.friendListItem {
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.friendListItem_avatar {
+    width: 36px;
+    margin-bottom: 6px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.friendListItem_name {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.friendListItem_status {
+    color: rgb(233, 10, 10);
+}
+
+.friendListItem.online .friendListItem_status {
+    color: rgb(14, 130, 21);
+}
