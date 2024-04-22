@@ -1,12 +1,12 @@
 .transaction_table {
-    border: 1px solid rgba(36, 37, 39, 1);
+    border: 1px solid black;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: -0.02em;
     text-align: center;
     width: 304px;
     display: block;
-    margin: 24px auto;
+    margin: 48px auto;
 }
 
 .transaction_table_head {
@@ -28,10 +28,11 @@
 }
 
 .transaction_spot {
+    border: 1px solid black;
     padding: 6px;
     width: 100px;
 }
 
-.transaction_spot:nth-child(even) {
+.transaction:nth-child(even) {
     background-color: rgba(128, 128, 128, 1);
 }

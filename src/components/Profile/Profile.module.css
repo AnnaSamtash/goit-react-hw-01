@@ -1,7 +1,7 @@
 .profile_container {
     width: 304px;
-    margin: 24px auto;
-    border: 1px solid black;
+    margin: 48px auto;
+    border: 2px solid black;
     border-radius: 24px;
     font-size: 16px;
     line-height: 1.5;
@@ -10,7 +10,8 @@
 }
 
 .profile_up {
-    width: 100%;
+    margin: 0;
+    border-radius: 24px 24px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,11 +19,13 @@
     padding: 18px;
 }
 
-.user_image {
-    width: 90px;
+.profile_img {
+    width: 120px;
     border-radius: 50%;
     background-color: black;
-    margin-bottom: 18px;
+    margin: 0 auto 18px;
+    display: block;
+
 }
 
 .profile_name {
@@ -47,11 +50,14 @@
 }
 
 .profile_states {
+    border-radius: 0 0 24px 24px;
+    overflow: hidden;
     display: flex;
     width: 100%;
 }
 
 .profile_state {
+    width: 100px;
     display: flex;
     flex-direction: column;
     text-align: center;

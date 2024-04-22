@@ -16,9 +16,9 @@ export default function FriendListItem({ avatar, name, isOnline }) {
       />
       <p className={css.friendListItem_name}>{name}</p>
       {isOnline ? (
-        <p className={css.friendListItem_status}>Online</p>
+        <p className={css.friendListItem_online}>Online</p>
       ) : (
-        <p className={css.friendListItem_status}>Offline</p>
+        <p className={css.friendListItem_offline}>Offline</p>
       )}
     </div>
   );

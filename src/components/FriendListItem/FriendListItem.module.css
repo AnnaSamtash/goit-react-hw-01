@@ -10,20 +10,23 @@
 .friendListItem_avatar {
     width: 36px;
     margin-bottom: 6px;
-    /* display: block;
+    display: block;
     margin-left: auto;
-    margin-right: auto; */
+    margin-right: auto;
 }
 
 .friendListItem_name {
     font-size: 18px;
     margin-bottom: 6px;
+    text-align: center;
 }
 
-.friendListItem_status {
+.friendListItem_offline {
+    text-align: center;
     color: rgb(233, 10, 10);
 }
 
-.friendListItem.online .friendListItem_status {
+.friendListItem_online {
+    text-align: center;
     color: rgb(14, 130, 21);
 }
