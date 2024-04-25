@@ -1,5 +1,6 @@
 .transaction_table {
-    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: -0.02em;
@@ -16,6 +17,7 @@
 }
 
 .transaction_table_head_title {
+    border: 1px solid black;
     width: 100px;
     padding: 6px;
 }
@@ -27,12 +29,12 @@
     width: 100%;
 }
 
+.transaction:nth-child(even) {
+    background-color: rgba(128, 128, 128, 1);
+}
+
 .transaction_spot {
     border: 1px solid black;
     padding: 6px;
     width: 100px;
-}
-
-.transaction:nth-child(even) {
-    background-color: rgba(128, 128, 128, 1);
 }
